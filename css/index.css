@@ -4,14 +4,11 @@ html {
 
 nav {
   background-color: black;
+  position: fixed;
 }
 
 #hoverChange:hover {
   background-color: #BAB2B5;
-}
-
-a.nav-link {
-  color: white;
 }
 
 div.background {
@@ -19,13 +16,18 @@ div.background {
   background-image: url("../img/pju2.jpg");
   background-position: center;
   background-size: cover;
-  height: 513px;
+  height: 502px;
 }
 
 .title {
   position: relative;
   left: 15%;
-  top: 10%;
+  top: 20%;
   color: white;
   width: 85%;
+}
+
+.navbar-nav {
+  position: absolute;
+  right: 10px;
 }
