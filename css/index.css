@@ -13,37 +13,45 @@ nav {
   background-color: black;
   z-index: 1000;
   width: 100%;
+  height: 8%;
 }
 
 #hoverChange:hover {
   background-color: #BAB2B5;
 }
 
+.background {
+  width: 100%;
+  height: 80%;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/pju.jpg");
+  background-position: 100% 35%;
+  background-size: cover;
+  display: block;
+}
+
+.card {
+  width: 18rem;
+}
 
 @media screen and (min-width: 768px) {
   .background {
     width: 100%;
-    height: 80%;
+    height: 45%;
     position: relative;
     left: 0px;
     top: 0px;
-    background-image: url("../img/pju.jpg");
-    background-position: 100% 35%;
+    background-image: url("../img/pju1.jpg");
+    background-position: 50% 40%;
     background-size: cover;
     display: block;
   }
-}
-@media screen and (max-width: 768px) {
-  .background {
-    width: 100%;
-    height: 80%;
-    position: relative;
-    left: 0px;
-    top: 0px;
-    background-image: url("../img/pju.jpg");
-    background-position: 50% 35%;
-    background-size: cover;
-    display: block;
+
+  .card {
+    margin: auto;
+    width: 70%;
   }
 }
 
