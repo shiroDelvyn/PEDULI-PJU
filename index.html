@@ -6,7 +6,7 @@
     <link href="./css/index.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" background="transparent">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand m-0 p-0" href="#"><img src="./img/logo.png" width="120px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,13 +15,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#" style="color: white;">Form Pelaporan</a>
+              <div id="hoverChange"><a class="nav-link" aria-current="page" href="#" style="color: white;">Form Pelaporan</a></div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#" style="color: white;">Kerusakan di Wilayah Anda</a>
+              <div id="hoverChange"><a class="nav-link" aria-current="page" href="#" style="color: white;">Kerusakan di Wilayah Anda</a></div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#" style="color: white;">Tentang Kami</a>
+              <div id="hoverChange"><a class="nav-link" aria-current="page" href="#" style="color: white;">Tentang Kami</a></div>
             </li>
           </ul>
         </div>
@@ -32,6 +32,31 @@
         <h1>PEDULI<br>PJU</h1>
         <p>Aplikasi pelaporan kerusakan PJU secara online</p>
         <button type="button" class="btn btn-light">Laporkan sekarang</button>
+      </div>
+    </div>
+    <br>
+    <h1 class="question">Keunggulan</h1>
+    <div class="d-md-flex justify-content-between">
+      <div class="card" style="width: 18rem;">
+        <img src="./img/aman.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Aman</h5>
+          <p class="card-text">Data pelapor akan diolah oleh sistem dan bukan dengan tenaga manusia, sehingga data pelapor akan tetap aman.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./img/efisien.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Efisien</h5>
+          <p class="card-text">Tidak diperlukan adanya instalasi aplikasi dan pelapor hanya perlu untuk melampirkan NIK dan bukti foto kerusakan PJU.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./img/cepat.png" class="card-img-top m-1" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cepat Tanggap</h5>
+          <p class="card-text">Data kerusakan PJU akan diteruskan secara langsung kepada teknisi PJu yang sedang bertugas dan akan ditanggapi dengan secepatnya.</p>
+        </div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
